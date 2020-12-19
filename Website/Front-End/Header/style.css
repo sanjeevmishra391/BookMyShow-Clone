@@ -5,3 +5,30 @@ header{
 body{
   margin : 0;
 }
+#upper{
+  margin-left: 55px;
+  height :64px;
+}
+#upper div{
+  display: inline-block;
+}
+#lower{
+  background: #222539;
+  height: 40px;
+}
+#navbar a{
+  color: #CCCCCC;
+  padding: 0px 10px;
+  font-size: 14.5px;
+  font-weight: 400;
+  text-decoration: none;
+}
+#navbar a:hover{
+  color:white;
+}
+form{
+    width: 270%;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    line-height: 33px;
+}
