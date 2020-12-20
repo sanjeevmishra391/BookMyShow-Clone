@@ -3,18 +3,54 @@ header{
   margin: 0;
 }
 body{
-  margin : 0;
+  font-family: Roboto,sans-serif;
 }
 #upper{
-  margin-left: 55px;
+  margin-left: 40px;
   height :64px;
 }
-#upper div{
-  display: inline-block;
+#navbar_upper{
+  float:right;
+}
+#navbar_ur{
+  float: right;
+}
+#region_button button{
+  background: none;
+  border: none;
+  color: #CCCCCC;
+  text-overflow: ellipsis;
+  font-size: 14px;
+font-weight: 400;
+margin-top: 5px;
+padding-right: 15px;
+line-height: 19px;
+}
+#region_button button:hover{
+  color:white;
+
+}
+#signin_button button{
+  background: none;
+border-color:white;
+font-size: 12px;
+border-radius: 4px;
+margin-top: 5px;
+width: 70px;
+}
+svg{
+  fill:white;
+  width: 60px;
+  height: 14px;
+  margin-top: 15px;
+}
 }
 #lower{
   background: #222539;
   height: 40px;
+}
+#upper div{
+  display: inline-block;
 }
 #navbar a{
   color: #CCCCCC;
@@ -22,6 +58,7 @@ body{
   font-size: 14.5px;
   font-weight: 400;
   text-decoration: none;
+
 }
 #navbar a:hover{
   color:white;
@@ -31,4 +68,63 @@ form{
     font-size: 14px;
     text-overflow: ellipsis;
     line-height: 33px;
+    margin-top:10px;
+}
+#navbar_right{
+  float: right;
+}
+#navbar_right a{
+  color: #fafafa;
+  padding: 0px 9px;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+
+}
+sup{
+  color:red;
+}
+#header2{
+  display: none;
+}
+#header2_nav{
+  height: 64px;
+  background:#2e3147 ;
+}
+#header2_nav div{
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin-left: 15px;
+}
+#region_button2 button{
+  background: none;
+  border: none;
+  color: #CCCCCC;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  margin-top: -45px;
+  margin-left: -25px;
+  color: rgb(204, 204, 204);
+  height: 20px;
+}
+#search_icon{
+  float: right;
+  margin-top: -45px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 830px){
+  #header2{
+    display:block;
+  }
+  #header1{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px){
+  form{
+    width: 200%;
+  }
 }
