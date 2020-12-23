@@ -1,9 +1,117 @@
+body{
+  font-family: Roboto,sans-serif;
+}
+#bod{
+  background: rgb(224, 224, 235);
+}
 header{
   background: #333545;
   margin: 0;
 }
-body{
+#cont1{
   font-family: Roboto,sans-serif;
+  background: rgb(224, 224, 235);
+}
+#but1{
+  color: rgb(0, 153, 255);
+  background-color: rgb(255, 255, 255)
+}
+#dropdownMenuButton1{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 153, 255);
+  padding: 10px 100px;
+  font-size: 15px
+}
+#dropdownMenuButton2{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 153, 255);
+  padding: 10px 82px;
+  font-size: 15px
+}
+#dropdownMenuButton3{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 153, 255);
+  padding: 10px 79px;
+  font-size: 15px
+}
+#dropdownMenuButton4{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 153, 255);
+  padding: 10px 90px;
+  font-size: 15px
+}
+#dropdownMenuButton5{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 153, 255);
+  padding: 10px 97px;
+  font-size: 15px
+}
+#dropdownMenuButton6{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 153, 255);
+  padding: 10px 75px;
+  font-size: 15px
+}
+#but2{
+  background-color: 
+  rgb(224, 224, 235);
+  color: rgb(51, 133, 255);
+  padding: 5px 61px;
+  font-size: 15px;
+}
+#card1{
+  cursor: pointer;
+}
+#card2{
+  cursor: pointer;
+}
+#card3{
+  cursor: pointer;
+}
+#card4{
+  cursor: pointer;
+}
+#card5{
+  cursor: pointer;
+}
+#card6{
+  cursor: pointer;
+}
+#card7{
+  cursor: pointer;
+}
+#card8{
+  cursor: pointer;
+}
+#card9{
+  cursor: pointer;
+}
+#card10{
+  cursor: pointer;
+}
+#card11{
+  cursor: pointer;
+}
+#card12{
+  cursor: pointer;
+}
+#card13{
+  cursor: pointer;
+}
+#card14{
+  cursor: pointer;
+}
+#card15{
+  cursor: pointer;
+}
+#card16{
+  cursor: pointer;
+}
+#card17{
+  cursor: pointer;
+}
+#card18{
+  cursor: pointer;
 }
 
 #upper{
@@ -50,6 +158,7 @@ svg{
   background: #222539;
   height: 40px;
 }
+
 #upper div{
   display: inline-block;
 }
@@ -59,11 +168,16 @@ svg{
   font-size: 14.5px;
   font-weight: 400;
   text-decoration: none;
-
 }
+#hi{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+
 #navbar a:hover{
   color:white;
 }
+
 form{
     width: 270%;
     font-size: 14px;
@@ -129,3 +243,12 @@ sup{
     width: 200%;
   }
 }
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size
+);
+
