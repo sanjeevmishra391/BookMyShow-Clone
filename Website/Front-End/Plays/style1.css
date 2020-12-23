@@ -1,11 +1,79 @@
+body{
+  font-family: Roboto,sans-serif;
+}
+#bod{
+  background: rgb(224, 224, 235);
+}
 header{
   background: #333545;
   margin: 0;
 }
-body{
+#cont1{
   font-family: Roboto,sans-serif;
-  background-color: rgb(224,235,235);
+  background: rgb(224, 224, 235);
 }
+#but1{
+  color: rgb(0, 153, 255);
+}
+#dropdownMenuButton{
+  background-color: rgb(255, 255, 255);
+  color: rgb(122, 122, 82)
+}
+#card1{
+  cursor: pointer;
+}
+#card2{
+  cursor: pointer;
+}
+#card3{
+  cursor: pointer;
+}
+#card4{
+  cursor: pointer;
+}
+#card5{
+  cursor: pointer;
+}
+#card6{
+  cursor: pointer;
+}
+#card7{
+  cursor: pointer;
+}
+#card8{
+  cursor: pointer;
+}
+#card9{
+  cursor: pointer;
+}
+#card10{
+  cursor: pointer;
+}
+#card11{
+  cursor: pointer;
+}
+#card12{
+  cursor: pointer;
+}
+#card13{
+  cursor: pointer;
+}
+#card14{
+  cursor: pointer;
+}
+#card15{
+  cursor: pointer;
+}
+#card16{
+  cursor: pointer;
+}
+#card17{
+  cursor: pointer;
+}
+#card18{
+  cursor: pointer;
+}
+
 #upper{
   margin-left: 40px;
   height :64px;
@@ -138,6 +206,3 @@ $font-sizes: (
   6: $h6-font-size
 );
 
-#cont1{
-  background: rgb(194, 214, 214);
-}
