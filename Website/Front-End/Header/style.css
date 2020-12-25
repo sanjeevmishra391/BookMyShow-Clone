@@ -45,7 +45,7 @@ margin-top: 5px;
 width: 70px;
 
 }
-svg{
+#navbar_ur svg{
   fill:white;
   width: 60px;
   height: 14px;
@@ -71,7 +71,7 @@ svg{
 #navbar_left a:hover{
   color:white;
 }
-form{
+#header1 form{
     width: 270%;
     font-size: 14px;
     text-overflow: ellipsis;
@@ -140,7 +140,7 @@ sup{
   }
 }
 @media only screen and (max-width: 1000px){
-  form{
+  #header1 form{
     width: 200%;
   }
   #header1{
