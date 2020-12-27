@@ -1,0 +1,97 @@
+body{
+  font-family: Roboto,sans-serif;
+}
+footer{
+  background-color: rgb(49, 48, 53);
+  margin: 0;
+}
+#first{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+}
+#second {
+  margin-top: 20px;
+  margin-left: 12px;
+  color: white;
+  font-weight:normal;
+  font-size: 16px;
+}
+#footer_upper p{
+  display: inline-block;
+}
+#footer_upper button{
+  float:right;
+  margin-top: 11px;
+  background-color: rgb(236, 94, 113) !important;
+  border-color: rgb(236, 94, 113) !important;
+  border-radius: 3px !important;
+}
+#footer_upper button:focus{
+  outline :none;
+  box-shadow: none;
+}
+#footer_middle{
+  background: rgb(64, 64, 67);
+  margin: 15px -15px;
+}
+#footer_links ul{
+  display:inline;
+  list-style-type: none;
+  font-size: 11px;
+  margin-left: -45px;
+  margin top :-10px;
+}
+#footer_links p{
+    color: rgb(165, 165, 165);
+    font-size: 12px;
+}
+#footer_links a{
+  color: rgb(127, 127, 127);
+  letter-spacing: 0.1px;
+  margin: 0px 5px 5px 5px;
+  padding-right: 5px;
+  border-right: 1px solid rgb(127, 127, 127);
+  text-decoration: none;
+  float:left;
+}
+#footer_links a:hover{
+  color: white;
+  transition: color 0.25s ease-in-out 0s;
+}
+#footer_lower hr{
+  margin-left:10px;
+  margin-right: 10px;
+  height: 1px;
+  background: rgb(93, 93, 95);
+  width: 80%;
+}
+#vertical_line{
+  display: flex;
+}
+#footer_logos{
+  text-align: center;
+}
+#footer_logos svg{
+  margin-left: 7px;
+}
+#footer_logos svg:hover{
+  fill: rgb(255, 255, 255);
+}
+#footer_lower a{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -10px;
+}
+#copyright {
+  padding: 30px;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+}
+@media only screen and (max-width: 1000px){
+  #footer{
+    display: none;
+  }
+}

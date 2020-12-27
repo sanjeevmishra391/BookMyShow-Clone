@@ -1,14 +1,16 @@
 header{
-  background: #333545;
-  margin: 0;
+  background: #222539;
 }
 body{
   font-family: Roboto,sans-serif;
 }
 
 #upper{
-  margin-left: 40px;
   height :64px;
+  background: #333545;
+}
+#logo{
+  margin-left: 40px;
 }
 #navbar_upper{
   float:right;
@@ -29,7 +31,11 @@ body{
 }
 #region_button button:hover{
   color:white;
-
+}
+#region_button button:focus{
+  outline :none;
+  border:none;
+  box-shadow: none;
 }
 #signin_button button{
   background: none;
@@ -38,22 +44,24 @@ font-size: 12px;
 border-radius: 4px;
 margin-top: 5px;
 width: 70px;
+
 }
-svg{
+#navbar_ur svg{
   fill:white;
   width: 60px;
   height: 14px;
   margin-top: 15px;
+  outline:none;
 }
 }
 #lower{
-  background: #222539;
+  background: #2e3147 !important;
   height: 40px;
 }
 #upper div{
   display: inline-block;
 }
-#navbar a{
+#navbar_left a{
   color: #CCCCCC;
   padding: 0px 10px;
   font-size: 14.5px;
@@ -61,10 +69,10 @@ svg{
   text-decoration: none;
 
 }
-#navbar a:hover{
+#navbar_left a:hover{
   color:white;
 }
-form{
+#header1 form{
     width: 270%;
     font-size: 14px;
     text-overflow: ellipsis;
@@ -110,6 +118,11 @@ sup{
   color: rgb(204, 204, 204);
   height: 20px;
 }
+#region_button2 button:focus{
+  outline :none;
+  border:none;
+  box-shadow: none;
+}
 #search_icon{
   float: right;
   margin-top: -45px;
@@ -123,9 +136,15 @@ sup{
   #header1{
     display: none;
   }
+  header{
+    margin-top: 0px;
+  }
 }
 @media only screen and (max-width: 1000px){
-  form{
+  #header1 form{
     width: 200%;
+  }
+  #header1{
+    margin-top: 64px;
   }
 }
