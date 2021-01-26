@@ -1,0 +1,254 @@
+body{
+  font-family: Roboto,sans-serif;
+}
+#bod{
+  background: rgb(224, 224, 235);
+}
+header{
+  background: #333545;
+  margin: 0;
+}
+#cont1{
+  font-family: Roboto,sans-serif;
+  background: rgb(224, 224, 235);
+}
+#but1{
+  color: rgb(0, 153, 255);
+  background-color: rgb(255, 255, 255)
+}
+#dropdownMenuButton1{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 153, 255);
+  padding: 10px 100px;
+  font-size: 15px
+}
+#dropdownMenuButton2{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 153, 255);
+  padding: 10px 82px;
+  font-size: 15px
+}
+#dropdownMenuButton3{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 153, 255);
+  padding: 10px 79px;
+  font-size: 15px
+}
+#dropdownMenuButton4{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 153, 255);
+  padding: 10px 90px;
+  font-size: 15px
+}
+#dropdownMenuButton5{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 153, 255);
+  padding: 10px 97px;
+  font-size: 15px
+}
+#dropdownMenuButton6{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 153, 255);
+  padding: 10px 75px;
+  font-size: 15px
+}
+#but2{
+  background-color: 
+  rgb(224, 224, 235);
+  color: rgb(51, 133, 255);
+  padding: 5px 61px;
+  font-size: 15px;
+}
+#card1{
+  cursor: pointer;
+}
+#card2{
+  cursor: pointer;
+}
+#card3{
+  cursor: pointer;
+}
+#card4{
+  cursor: pointer;
+}
+#card5{
+  cursor: pointer;
+}
+#card6{
+  cursor: pointer;
+}
+#card7{
+  cursor: pointer;
+}
+#card8{
+  cursor: pointer;
+}
+#card9{
+  cursor: pointer;
+}
+#card10{
+  cursor: pointer;
+}
+#card11{
+  cursor: pointer;
+}
+#card12{
+  cursor: pointer;
+}
+#card13{
+  cursor: pointer;
+}
+#card14{
+  cursor: pointer;
+}
+#card15{
+  cursor: pointer;
+}
+#card16{
+  cursor: pointer;
+}
+#card17{
+  cursor: pointer;
+}
+#card18{
+  cursor: pointer;
+}
+
+#upper{
+  margin-left: 40px;
+  height :64px;
+}
+#navbar_upper{
+  float:right;
+}
+#navbar_ur{
+  float: right;
+}
+#region_button button{
+  background: none;
+  border: none;
+  color: #CCCCCC;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+  padding-right: 15px;
+  line-height: 19px;
+}
+#region_button button:hover{
+  color:white;
+
+}
+#signin_button button{
+  background: none;
+border-color:white;
+font-size: 12px;
+border-radius: 4px;
+margin-top: 5px;
+width: 70px;
+}
+svg{
+  fill:white;
+  width: 60px;
+  height: 14px;
+  margin-top: 15px;
+}
+}
+#lower{
+  background: #222539;
+  height: 40px;
+}
+
+#upper div{
+  display: inline-block;
+}
+#navbar a{
+  color: #CCCCCC;
+  padding: 0px 10px;
+  font-size: 14.5px;
+  font-weight: 400;
+  text-decoration: none;
+}
+#hi{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+
+#navbar a:hover{
+  color:white;
+}
+
+form{
+    width: 270%;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    line-height: 33px;
+    margin-top:10px;
+}
+#navbar_right{
+  float: right;
+}
+#navbar_right a{
+  color: #fafafa;
+  padding: 0px 9px;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+
+}
+sup{
+  color:red;
+}
+#header2{
+  display: none;
+}
+#header2_nav{
+  height: 64px;
+  background:#2e3147 ;
+}
+#header2_nav div{
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin-left: 15px;
+}
+#region_button2 button{
+  background: none;
+  border: none;
+  color: #CCCCCC;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  margin-top: -45px;
+  margin-left: -25px;
+  color: rgb(204, 204, 204);
+  height: 20px;
+}
+#search_icon{
+  float: right;
+  margin-top: -45px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 830px){
+  #header2{
+    display:block;
+  }
+  #header1{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px){
+  form{
+    width: 200%;
+  }
+}
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size
+);
+
